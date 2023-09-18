@@ -1,0 +1,16 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "date": "09/18/2023",
+        "image": "https://source.unsplash.com/random/?web,development",
+        "comment" : "This is a great movie",
+        "hashtags": ["#shawshank", "#redemption", "#morganfreeman"]
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "date": "09/18/2023",
+        "image": "https://source.unsplash.com/random/?web,development",
+        "comment" : "This is a great movie, This is a great movie This is a great movie This is a great movie",
+        "hashtags": ["#shawshank", "#redemption", "#morganfreeman"]
+    }
+]
