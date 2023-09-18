@@ -1,14 +1,14 @@
 {
   "name": "meme-feed",
-  "module": "server.ts",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
+  "main": "dist/server.js",
   "scripts": {
-    "start": "bun --watch server.ts"
+    "start": "node server.js",
+    "dev": "node -build server.ts",
+    "build": "tsc"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
